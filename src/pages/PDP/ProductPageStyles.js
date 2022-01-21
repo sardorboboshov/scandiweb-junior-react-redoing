@@ -27,6 +27,11 @@ export const DescriptionWrapper = styled.div`
       }
     }
   }
+  @media(max-width:640px) {
+    .images {
+      flex-direction: row;
+    }
+  }
 
   /* design style for "big-image" that will display on the center of page */
   .big-image {

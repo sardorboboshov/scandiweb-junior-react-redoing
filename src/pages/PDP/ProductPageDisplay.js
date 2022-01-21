@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import PriceProduct from "./PriceProduct";
-
 import Attributes from "./Attributes";
 import ReactHtmlParser from "react-html-parser";
-
 import {
   DescriptionWrapper,
   StyledLinkPr,
