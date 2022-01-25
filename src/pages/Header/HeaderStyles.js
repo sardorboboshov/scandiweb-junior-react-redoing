@@ -68,6 +68,11 @@ export const Navigation = styled.header`
       font-weight: 500;
       font-size: 1rem;
       color: var(--c-black);
+      &:hover {
+        color: var(--c-white);
+        background-color: var(--c-black);
+        width: 100%;
+      }
     }
     cursor: pointer;
   }
