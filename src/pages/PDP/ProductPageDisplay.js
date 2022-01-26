@@ -28,9 +28,6 @@ class ProductPageDisplay extends Component {
       <DescriptionWrapper>
         <Images gallery={data.gallery} setImg={setImg} />
         <Image inStock={data.inStock} img={active_img || data.gallery[0]} />
-        {/* <div className="big-image">
-          <img src={active_img || data.gallery[0]} alt="" />
-        </div> */}
         <OneStyle
           className="description"
           notselected={notselectedAllAttributes}
