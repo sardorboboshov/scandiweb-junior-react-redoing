@@ -10,6 +10,7 @@ import {
   StyledDescription,
 } from "./ProductPageStyles";
 import Images from "./Images";
+import Image from "./Image";
 import {
   mapStateToPropsForProducts,
   mapDispatchToProps,
@@ -26,9 +27,10 @@ class ProductPageDisplay extends Component {
     return (
       <DescriptionWrapper>
         <Images gallery={data.gallery} setImg={setImg} />
-        <div className="big-image">
+        <Image inStock={data.inStock} img={active_img || data.gallery[0]} />
+        {/* <div className="big-image">
           <img src={active_img || data.gallery[0]} alt="" />
-        </div>
+        </div> */}
         <OneStyle
           className="description"
           notselected={notselectedAllAttributes}

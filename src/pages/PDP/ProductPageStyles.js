@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { ImageContainer } from "../PLP/PLPstyles";
 export const DescriptionWrapper = styled.div`
   margin: 3rem 4rem;
   margin-bottom: 5rem;
@@ -27,7 +28,7 @@ export const DescriptionWrapper = styled.div`
       }
     }
   }
-  @media(max-width:640px) {
+  @media (max-width: 640px) {
     .images {
       flex-direction: row;
     }
@@ -161,5 +162,16 @@ export const StyledDescription = styled.div`
   font-family: "Roboto";
   * {
     font-family: "Roboto";
+  }
+`;
+
+export const PDPImageContainer = styled(ImageContainer)`
+  img {
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .wrap {
+    opacity: 0.5;
   }
 `;

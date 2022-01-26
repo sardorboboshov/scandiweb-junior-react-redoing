@@ -21,7 +21,7 @@ export class Image extends Component {
         {product.inStock === true && (
           <ImageContainer>
             <div className="img--container">
-              <img src={product.gallery[0]} alt="xzxZ" />
+              <img src={product.gallery[0]} alt="" />
 
               <img
                 className="circle_icon"
