@@ -174,4 +174,7 @@ export const PDPImageContainer = styled(ImageContainer)`
   .wrap {
     opacity: 0.5;
   }
+  .wrap img + .content {
+    font-size: 1.5rem;
+  }
 `;
